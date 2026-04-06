@@ -28,7 +28,7 @@ env:
   # please change to your own config.
   RUN_TYPE: garmin_cn
   ATHLETE: HuiYong
-  TITLE: My Running Track
+  TITLE: My Running Calendar
   MIN_GRID_DISTANCE: 1 # change min distance here
   TITLE_GRID: My Running Tracks # also here
 
