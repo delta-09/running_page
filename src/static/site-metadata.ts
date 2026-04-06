@@ -17,7 +17,7 @@ const getBasePath = () => {
 const data: ISiteMetadataResult = {
   siteTitle: 'My Running Page',
   siteUrl: '',
-  logo: '',
+  logo: 'O_o',
   description: '我的跑步记录',
   navLinks: [
     {
