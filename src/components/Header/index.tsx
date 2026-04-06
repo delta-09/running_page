@@ -73,11 +73,12 @@ const Header = () => {
     <div 
       className="h-16 w-16 rounded-full flex items-center justify-center"
       style={{
-        background: '#000',
-        color: '#00ff00',
-        fontSize: '28px',
-        fontWeight: 'bold',
-      }}
+  background: 'transparent',
+  color: '#00ff00', // 改为白色字符（适配深色页面背景）
+  fontSize: '28px',
+  fontWeight: 'bold',
+  textShadow: '0 0 4px #000', // 黑色文字阴影，增强可读性
+}}
     >
       {logo}
     </div>
