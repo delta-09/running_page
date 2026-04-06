@@ -1,4 +1,15 @@
+# 强制屏蔽 geopy，彻底解决 Nominatim 超时
+import sys
+from unittest.mock import Mock
+class MockGeoLocator:
+    def reverse(self, *args, **kwargs):
+        mock = Mock()
+        mock.address = "中国"
+        return mock
 
+sys.modules['geopy'] = Mock()
+sys.modules['geopy.geocoders'] = Mock()
+sys.modules['geopy.geocoders.Nominatim'] = MockGeoLocator
 import json
 import time
 from datetime import datetime
