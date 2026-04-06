@@ -170,7 +170,7 @@ export {
   INVALID_ROUTE_DATA,
 };
 
-const nike = 'rgb(0,255,0)'; // if you want to change the main color, modify this value in src/styles/variables.scss
+const nike = 'rgb(0,255,0)'; // if you want to change the main color, modify this value in /src/styles/index.css
 const dark_vanilla = 'rgb(228,212,220)';
 
 // If your map has an offset please change this line
