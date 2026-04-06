@@ -65,11 +65,10 @@ const Header = () => {
       <nav className="mx-auto mt-12 flex w-full min-w-max max-w-screen-2xl items-center justify-between pl-6 lg:px-16">
         <div className="w-1/4">
           <Link to={siteUrl}>
-           {/* 注释掉图片 Logo：改用字符 Logo
-            /* <picture>
+           {/* 注释掉图片 Logo：改用字符 Logo*/}
+            {/* <picture>
               <img className="h-16 w-16 rounded-full" alt="logo" src={logo} />
-            </picture>*/
-             */}
+            </picture>*/}
                {/* 字符 Logo 代码 */}
     <div 
       className="h-16 w-16 rounded-full flex items-center justify-center"
