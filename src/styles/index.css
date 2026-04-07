@@ -50,7 +50,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     /* 注释const nike ; */
-    --color-brand: #afdd22;
+    --color-brand: #8ce600;
     --color-secondary: #ccd94a;
     --color-bg: var(--color-neutral-900);
     --color-tx: var(--color-brand);
@@ -90,7 +90,7 @@
 
 [data-theme='dark'] {
   /* 注释 const nike ; 改color-brand*/
-  --color-brand: #afdd22;
+  --color-brand: #8ce600;
   --color-secondary: #ccd94a;
   --color-bg: var(--color-neutral-900);
   --color-tx: var(--color-brand);
