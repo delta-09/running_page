@@ -57,9 +57,7 @@ const CHINESE_INFO_MESSAGE = (yearLength: number, year: string): string => {
   const yearStr = year === 'Total' ? '所有' : ` ${year} `;
   return `我的根扎在泥土里，
 我的心飞在白云上，
-我的脚步走在人间的烟火寻常。
-
-下面展示的是${yearStr}的数据。`;
+我的脚步走在人间的烟火寻常。`;
 };
 const ENGLISH_INFO_MESSAGE = (yearLength: number, year: string): string =>
   `Running Journey with ${yearLength} Years, the table shows year ${year} data`;
